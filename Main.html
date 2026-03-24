@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mountain Vista Inn | Shimla</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #FDFBF7; color: #4A3728; font-family: 'Georgia', serif; }
+        .accent-brown { color: #5D4037; }
+        .bg-cream { background-color: #F5F5DC; }
+        .bg-deep-brown { background-color: #3E2723; }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center p-6 bg-white shadow-sm sticky top-0 z-50">
+        <h1 class="text-xl font-bold tracking-widest accent-brown">MOUNTAIN VISTA INN</h1>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider">
+            <a href="#rooms" class="hover:text-amber-700">Rooms</a>
+            <a href="#amenities" class="hover:text-amber-700">Amenities</a>
+            <a href="#contact" class="hover:text-amber-700">Contact</a>
+        </div>
+        <a href="https://wa.me/910000000000" class="bg-deep-brown text-white px-5 py-2 text-sm rounded">BOOK NOW</a>
+    </nav>
+
+    <section class="relative h-[80vh] flex items-center justify-center bg-gray-900 text-white">
+        <img src="https://images.unsplash.com/photo-1549893072-4bc678117f45?auto=format&fit=crop&w=1920&q=80" alt="Shimla Hills" class="absolute inset-0 w-full h-full object-cover opacity-60">
+        <div class="relative text-center px-4">
+            <h2 class="text-5xl md:text-7xl font-light mb-4">Himalayan Serenity</h2>
+            <p class="text-lg md:text-xl mb-8 font-light italic">Experience the best views in Shimla from our boutique 11-room inn.</p>
+            <a href="#rooms" class="border-2 border-white px-8 py-3 hover:bg-white hover:text-black transition uppercase text-sm tracking-widest">Explore Rooms</a>
+        </div>
+    </section>
+
+    <section id="rooms" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl accent-brown mb-2">Our Accommodations</h3>
+            <div class="w-16 h-1 bg-amber-800 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold mb-2">Himalayan Balcony</h4>
+                    <p class="text-sm text-gray-600 mb-4">4 Medium Rooms with private balconies and excellent mountain views.</p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold mb-2">Vista Premier</h4>
+                    <p class="text-sm text-gray-600 mb-4">4 Medium Rooms with large windows and panoramic Himalayan views.</p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold mb-2">Executive Suite</h4>
+                    <p class="text-sm text-gray-600 mb-4">2 Large Rooms offering maximum space and comfort for families.</p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold mb-2">Cozy Standard</h4>
+                    <p class="text-sm text-gray-600 mb-4">1 Small room perfect for budget travelers. Quiet and essential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="amenities" class="bg-cream py-16 px-6">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+            <div>
+                <i class="fa-solid fa-wifi text-3xl accent-brown mb-4"></i>
+                <h5 class="font-bold">Free Wi-Fi</h5>
+                <p class="text-sm">High-speed connectivity across all floors.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-hot-tub-person text-3xl accent-brown mb-4"></i>
+                <h5 class="font-bold">24/7 Hot Water</h5>
+                <p class="text-sm">Constant supply for the chilly Shimla mornings.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-utensils text-3xl accent-brown mb-4"></i>
+                <h5 class="font-bold">Home-style Dining</h5>
+                <p class="text-sm">Freshly prepared local and Indian meals.</p>
+            </div>
+        </div>
+        <p class="text-center mt-12 text-sm italic font-bold">Note: As a boutique hillside property, we do not have on-site parking.</p>
+    </section>
+
+    <section id="contact" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h3 class="text-3xl accent-brown mb-8">Visit Us</h3>
+        <p class="mb-2"><strong>Location:</strong> Near The Ridge, Shimla, Himachal Pradesh</p>
+        <p class="mb-2"><strong>Phone:</strong> +91 98765 43210</p>
+        <p class="mb-8"><strong>Email:</strong> contact@mvinnshimla.com</p>
+        <div class="flex justify-center space-x-4">
+            <a href="https://wa.me/919876543210" class="bg-green-700 text-white px-6 py-3 rounded-full flex items-center">
+                <i class="fa-brands fa-whatsapp mr-2"></i> Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-deep-brown text-cream py-8 text-center text-xs uppercase tracking-widest">
+        &copy; 2026 Hotel Mountain Vista Inn Shimla. All Rights Reserved.
+    </footer>
+
+    <a href="https://wa.me/919876543210" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg md:hidden">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
 
